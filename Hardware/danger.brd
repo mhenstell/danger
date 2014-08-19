@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.6.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -32,7 +32,7 @@
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -191,7 +191,7 @@ Core</text>
 <text x="14.695" y="17.188" size="1.6764" layer="21" ratio="15">D0</text>
 <text x="50.94" y="70.81" size="1.9" layer="16" font="vector" ratio="11" rot="MR0">Plover Electric</text>
 <text x="50.94" y="68.81" size="1.7" layer="16" font="vector" ratio="9" rot="MR0">plover.io/danger</text>
-<text x="50.94" y="66.81" size="0.8128" layer="16" ratio="4" rot="MR0">Ver 1.0 2014 (CC BY-SA 3.0)</text>
+<text x="50.94" y="66.81" size="0.8128" layer="16" ratio="10" rot="MR0">Ver 1.0 2014 (CC BY-SA 3.0)</text>
 <polygon width="0.1524" layer="42">
 <vertex x="27.34" y="72.91"/>
 <vertex x="27.34" y="66.56"/>
@@ -205,7 +205,7 @@ Core</text>
 <text x="88" y="16.8" size="1.016" layer="21" ratio="15" rot="R90">10pF</text>
 <text x="50.94" y="70.81" size="1.9" layer="30" font="vector" ratio="11" rot="MR0">Plover Electric</text>
 <text x="50.94" y="68.81" size="1.7" layer="30" font="vector" ratio="9" rot="MR0">plover.io/danger</text>
-<text x="50.94" y="66.81" size="0.8128" layer="30" ratio="4" rot="MR0">Ver 1.0 2014 (CC BY-SA 3.0)</text>
+<text x="50.94" y="66.81" size="0.8128" layer="30" ratio="10" rot="MR0">Ver 1.0 2014 (CC BY-SA 3.0)</text>
 <wire x1="50.8952625" y1="75.129296875" x2="50.89715" y2="75.1098625" width="0.1524" layer="30"/>
 <wire x1="50.89715" y1="75.1098625" x2="50.91909375" y2="74.981615625" width="0.1524" layer="30"/>
 <wire x1="50.91909375" y1="74.981615625" x2="50.9604" y2="74.84295625" width="0.1524" layer="30"/>
